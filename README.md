@@ -15,7 +15,7 @@ Simply Because Centos 7 is built for stability. I hope i made this as simple and
 11. - Disabling SSHd, X-server
 12. - Hardware tweak (power on, remote power outlet, etc)
 
-1. - Installing Centos 7
+## - Installing Centos 7
 
 2. - Disabling Nouveau Driver
 3. -  Installing Nvidia Driver
