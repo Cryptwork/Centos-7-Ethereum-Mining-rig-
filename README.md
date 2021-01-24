@@ -1,4 +1,4 @@
-# Centos-7-Ethereum-Mining-rig
+# Centos 7 Ethereum Mining rig with GUI
 Simply Because Centos 7 is built for stability. I hope i made this as simple and easy as possible! I could never find a collection of all this information in one place, so here it is.
 
 # Table of Contents 
@@ -27,11 +27,13 @@ If you have access to an Ubuntu/linux machine to do your create your bootable US
 https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview  
 
 Once you've created your bootable media on a usb a key, you can start the install process. First make sure to log in the bios of your machine to select you bootable USB. Following that portion you'll need to follow with the step to install Centos 7 on your mining machine. Here's a good one:  
-https://phoenixnap.com/kb/how-to-install-centos-7  
+https://phoenixnap.com/kb/how-to-install-centos-7    
 
 I like to select Server with GUI, Java support, Compatibilities libraries, Development Tools, System availabilities, High availability, Etc. Of course the more package you'll select the longer boot will take, but once the system is well tuned, booting time won't be of consequence, because you won't have to reboot, period.   
 
-Special notes: make sure you give your user adiministrator access and enable your network connection during the install. There are gazillion of possibilities of configuration for Centos 7. I personnally never tried the minimal install/mining rig combo. 
+Special notes: make sure you give your user adiministrator access and enable your network connection during the install. There are gazillion of possibilities of configuration for Centos 7. I personnally never tried the minimal install/mining rig combo.  
+
+Once the install has been completed properly, reboot should get Centos 7 started with nouveau driver. If you've decided to lock the kernel in as I did to run something like Ansys. 
 
 
 
