@@ -33,15 +33,11 @@ I like to select Server with GUI, Java support, Compatibilities libraries, Devel
 
 Special notes: make sure you give your user adiministrator access and enable your network connection during the install. There are gazillion of possibilities of configuration for Centos 7. I personnally never tried the minimal install/mining rig combo.  
 
-Once the install has been completed properly, reboot should get Centos 7 started with nouveau driver. If you've decided to lock the kernel in as I did to run something like Ansys. 
+Once the install has been completed properly, reboot should get Centos 7 started with nouveau driver. If you've decided to lock in the kernel as I did to run something like Ansys. You can run no_update_kernel.sh as root. It will disable kernel update and run an update for you. 
 
+##  Disabling Nouveau Driver  
+Centos 7 come with the nouveau driver, which is no good for mining, but you'll need to disable it in order to install Nvidia Driver. Run Disable_Nouveau_Driver.sh to get this done. https://wiki.cdot.senecacollege.ca/wiki/CentOS7_Disable_Nouveau for the code! 
 
-
-
-
-
-
-2. -  Disabling Nouveau Driver
 3. -  Installing Nvidia Driver
 4. -  SSH connection check (that's the lifeline!)
 5. -  Installing & compiling GCC 9.1.0 (take a while)
